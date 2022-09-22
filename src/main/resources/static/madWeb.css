@@ -1,11 +1,13 @@
 body{
-    background-color: aquamarine;
+    background-color: lightblue;
 }
 img.topImage{
     position: absolute;
     width: 1920px;
     height: 160px;
     object-fit: cover;
+    border-bottom-style: solid;
+    border-color: cornflowerblue;
     top: 0;
     right: 0;
 }
@@ -37,7 +39,9 @@ div.squareText{
 div.mainBody{
     position: relative;
     background-color: cadetblue;
-    width: 1200px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    width: 1270px;
     height: 1800px;
     left: 220px;
     bottom: -72px;
@@ -47,4 +51,35 @@ p.mainText{
     margin-left: 35px;
     font-size: 30px;
     font-family: sans-serif, Times, serif;
+}
+
+div.rightBox{
+    position: fixed;
+    width: 350px;
+    height: 700px;
+    background-color: cadetblue;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    bottom: 50px;
+    right: 20px;
+}
+
+p.cornerText{
+    margin-left: 15px;
+}
+
+.inputBody{
+    position: relative;
+    background-color: silver;
+    bottom: -90px;
+    font-size: 30px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: cadetblue;
+    padding: 16px 110px;
+    text-align: right;
+    line-height: 40px;
+    right: -20px;
+    height: 15px;
 }
