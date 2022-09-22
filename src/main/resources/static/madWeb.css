@@ -33,3 +33,18 @@ div.squareText{
     justify-content: center;
     align-items: center;
 }
+
+div.mainBody{
+    position: relative;
+    background-color: cadetblue;
+    width: 1200px;
+    height: 1800px;
+    left: 220px;
+    bottom: -72px;
+}
+p.mainText{
+    margin-top: 0;
+    margin-left: 35px;
+    font-size: 30px;
+    font-family: sans-serif, Times, serif;
+}
