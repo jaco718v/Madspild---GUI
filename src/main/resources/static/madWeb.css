@@ -42,7 +42,7 @@ div.mainBody{
     border-style: solid;
     border-color: cornflowerblue;
     width: 1270px;
-    height: 1800px;
+    height: 1200px;
     left: 220px;
     bottom: -72px;
 }
@@ -82,4 +82,15 @@ p.cornerText{
     line-height: 40px;
     right: -20px;
     height: 15px;
+}
+
+p.footerText{
+    position: absolute;
+    background-color: lightcyan;
+    width: 1920px;
+    height: 70px;
+    font-size: 16px;
+    border-top-style: solid;
+    border-color: black;
+    right: 0;
 }
