@@ -1,0 +1,35 @@
+body{
+    background-color: aquamarine;
+}
+img.topImage{
+    position: absolute;
+    width: 1920px;
+    height: 160px;
+    object-fit: cover;
+    top: 0;
+    right: 0;
+}
+
+.flexSquare{
+    display: flex;
+    gap: 80px;
+}
+
+div.homeSquare{
+    position: relative;
+    top: 72px;
+    left: 60px;
+    width: 350px;
+    height: 80px;
+    background-color: cornflowerblue;
+    border-radius: 20px 20px 0 0;
+}
+
+div.squareText{
+    font-size: 40px;
+    font-family: sans-serif, Times, serif;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
