@@ -35,7 +35,9 @@ div.squareText{
     justify-content: center;
     align-items: center;
 }
-
+div.squareText:hover{
+    color: blue;
+}
 div.mainBody{
     position: relative;
     background-color: cadetblue;
@@ -46,11 +48,41 @@ div.mainBody{
     left: 220px;
     bottom: -72px;
 }
+h1.overtext{
+    font-family: sans-serif, Times, serif;
+    margin-left: 35px;
+}
+
+img.textImage1{
+    position: relative;
+    float: right;
+    border-style: solid;
+    border-color: cornflowerblue;
+    height: 250px;
+    width: auto;
+    max-height: 100%;
+    border-width: 4px;
+    margin: 18px;
+}
+
+img.textImage2{
+    position: relative;
+    float: left;
+    border-style: solid;
+    border-color: cornflowerblue;
+    height: 250px;
+    width: auto;
+    max-height: 100%;
+    border-width: 4px;
+    margin: 15px 15px 15px 0;
+}
+
 p.mainText{
     margin-top: 0;
     margin-left: 35px;
-    font-size: 30px;
+    font-size: 20px;
     font-family: sans-serif, Times, serif;
+    line-height: 150%;
 }
 
 div.rightBox{
@@ -64,9 +96,21 @@ div.rightBox{
     bottom: 50px;
     right: 20px;
 }
+h1.cornerTitle{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 45px;
+}
 
 p.cornerText{
-    margin-left: 15px;
+    margin-left: 25px;
+    font-size: 18px;
+    color: blue;
+    text-decoration: underline;
+}
+
+p.cornerText:hover{
+    color: green;
 }
 
 .inputBody{
